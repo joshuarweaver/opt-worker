@@ -8,8 +8,8 @@ compatibility_flags = ["nodejs_compat"]
 
 # Routes configuration - uncomment and modify for your domain
 [[routes]]
-pattern = "joshrweaver.com/*"
-zone_name = "joshrweaver.com"
+pattern = "joshweaver.com/*"
+zone_name = "joshweaver.com"
 
 # Environment variables (if needed)
 # [env.production.vars]
