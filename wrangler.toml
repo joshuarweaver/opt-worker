@@ -1,0 +1,35 @@
+name = "image-optimizer-worker"
+main = "src/index.js"
+compatibility_date = "2023-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Account details - replace with your Cloudflare account info
+# account_id = "your-account-id-here"
+
+# Routes configuration - uncomment and modify for your domain
+# [[routes]]
+# pattern = "example.com/*"
+# zone_name = "example.com"
+
+# Environment variables (if needed)
+# [env.production.vars]
+# ENVIRONMENT = "production"
+
+# [env.staging.vars]
+# ENVIRONMENT = "staging"
+
+# Worker configuration
+[build]
+command = ""
+
+# KV namespace bindings (if you need caching)
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
+# preview_id = "your-preview-kv-namespace-id"
+
+# D1 database bindings (if needed for analytics)
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "image-optimizer-db"
+# database_id = "your-database-id" 
