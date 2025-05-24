@@ -7,9 +7,9 @@ compatibility_flags = ["nodejs_compat"]
 # account_id = "your-account-id-here"
 
 # Routes configuration - uncomment and modify for your domain
-# [[routes]]
-# pattern = "example.com/*"
-# zone_name = "example.com"
+[[routes]]
+pattern = "joshrweaver.com/*"
+zone_name = "joshrweaver.com"
 
 # Environment variables (if needed)
 # [env.production.vars]
